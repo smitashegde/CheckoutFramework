@@ -1,0 +1,154 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2023-02-14T10:01:45.379Z",
+        "before": [
+          {
+            "result": {
+              "duration": 2471968700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.FlipkartPage_StepDef.initializeDriver()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Verifying the ordering of ipad and placing the order",
+        "description": "",
+        "id": "testing-the-search-and-ordering-the-mobile-device-on-flipkart-page;verifying-the-ordering-of-ipad-and-placing-the-order",
+        "after": [
+          {
+            "result": {
+              "duration": 590469900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefinitions.FlipkartPage_StepDef.teardown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2345929200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user opens the flipkart page",
+            "match": {
+              "location": "StepDefinitions.FlipkartPage_StepDef.user_opens_the_flipkart_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 199594500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user types \"ipad\" in the search box",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ipad",
+                  "offset": 12
+                }
+              ],
+              "location": "StepDefinitions.FlipkartPage_StepDef.user_types_in_the_search_box(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 463308100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "suggestions are displayed select one of them",
+            "match": {
+              "location": "StepDefinitions.FlipkartPage_StepDef.suggestions_are_displayed_select_one_of_them()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2195810800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "on results page filter all results by the \"Wi-Fi Only\" filter",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Wi-Fi Only",
+                  "offset": 43
+                }
+              ],
+              "location": "StepDefinitions.FlipkartPage_StepDef.on_results_page_filter_all_results_by_the_filter(java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 378204400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "select one of the results",
+            "match": {
+              "location": "StepDefinitions.FlipkartPage_StepDef.select_one_of_the_results()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1758644800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Checkout the order",
+            "match": {
+              "location": "StepDefinitions.FlipkartPage_StepDef.Checkout_the_order()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2058942900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Place the order",
+            "match": {
+              "location": "StepDefinitions.FlipkartPage_StepDef.Place_the_order()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 15215828300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Enter Random Email and Phone number",
+            "match": {
+              "location": "StepDefinitions.FlipkartPage_StepDef.Enter_Random_Email_and_Phone_number()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Testing the search and ordering the mobile device on flipkart page",
+    "description": "",
+    "id": "testing-the-search-and-ordering-the-mobile-device-on-flipkart-page",
+    "keyword": "Feature",
+    "uri": "file:src/main/java/Features/Flipkart.feature",
+    "tags": []
+  }
+]

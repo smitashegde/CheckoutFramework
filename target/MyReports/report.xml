@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="1" time="27.923">
+    <testcase classname="Testing the search and ordering the mobile device on flipkart page" name="Verifying the ordering of ipad and placing the order" time="27.747">
+        <system-out><![CDATA[Given user opens the flipkart page..........................................passed
+Then user types "ipad" in the search box....................................passed
+When suggestions are displayed select one of them...........................passed
+Then on results page filter all results by the "Wi-Fi Only" filter..........passed
+Then select one of the results..............................................passed
+Then Checkout the order.....................................................passed
+Then Place the order........................................................passed
+Then Enter Random Email and Phone number....................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
